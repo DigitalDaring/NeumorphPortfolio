@@ -1,0 +1,16 @@
+{
+  "name": "neumorphic_portfolio",
+  "version": "1.0.0",
+  "description": "a trendy new portfolio",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Edmund Bates",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "parcel-plugin-webcomponents": "^1.2.2",
+    "sass": "^1.25.0",
+    "typescript": "^3.7.5"
+  }
+}
