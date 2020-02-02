@@ -1,0 +1,98 @@
+
+<svg width="187px" height="136px" viewBox="0 0 187 136" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+
+    <title>Corner Blob</title>
+
+    <desc>Created with Sketch.</desc>
+
+    <defs>
+
+        <rect id="path-1" x="363" y="234" width="299" height="438" rx="43"></rect>
+
+        <filter x="-12.2%" y="-8.3%" width="124.4%" height="116.7%" filterUnits="objectBoundingBox" id="filter-2">
+
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+
+            <feOffset dx="-8" dy="-8" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.608036495 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter2"></feMorphology>
+
+            <feOffset dx="8" dy="8" in="shadowSpreadOuter2" result="shadowOffsetOuter2"></feOffset>
+
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+
+            <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"></feComposite>
+
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.32 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+
+            <feMerge>
+
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+
+            </feMerge>
+
+        </filter>
+
+        <linearGradient x1="27.9666754%" y1="21.4327974%" x2="50%" y2="76.3739416%" id="linearGradient-3">
+
+            <stop stop-color="#A1E15D" offset="0%"></stop>
+
+            <stop stop-color="#68C030" offset="100%"></stop>
+
+        </linearGradient>
+
+        <path d="M43,135.143084 C19.2517558,135.143084 2.90832113e-15,115.891328 0,92.1430837 L0,20.8902904 C5.42776703,6.96343012 13.8156254,2.13162821e-13 25.1635751,2.13162821e-13 C42.1854996,2.13162821e-13 83.2708809,53.3865257 100.756277,61.5180426 C118.241673,69.6495595 123,48.8883752 149.5,53.7123125 C167.166667,56.9282707 179.358802,84.0718611 186.076405,135.143084 L43,135.143084 Z" id="path-4"></path>
+
+        <filter x="-1.6%" y="-2.2%" width="103.2%" height="104.4%" filterUnits="objectBoundingBox" id="filter-5">
+
+            <feGaussianBlur stdDeviation="2.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.249480988 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+
+        </filter>
+
+    </defs>
+
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+
+        <g id="Desktop" transform="translate(-363.000000, -536.000000)">
+
+            <g id="Rectangle">
+
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+
+                <use stroke="#FFFFFF" stroke-width="1" fill="#FFF0E7" fill-rule="evenodd" xlink:href="#path-1"></use>
+
+            </g>
+
+            <g id="Group" transform="translate(363.000000, 536.856916)">
+
+                <g id="Combined-Shape">
+
+                    <use fill="url(#linearGradient-3)" fill-rule="evenodd" xlink:href="#path-4"></use>
+
+                    <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+
+                </g>
+
+            </g>
+
+        </g>
+
+    </g>
+
+</svg>
