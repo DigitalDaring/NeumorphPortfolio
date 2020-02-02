@@ -1,7 +1,17 @@
 html, body {
-
+    --primary-font: 'Quicksand', sans-serif;
+    font-family: var(--primary-font);
 }
 
 body {
-    background-color: #fbede9;
+    --background-color: #fbede9;
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
 }

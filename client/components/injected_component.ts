@@ -4,6 +4,7 @@ export class InjectedComponent extends HTMLElement {
     constructor() {
         super();
         this.shadow = this.attachShadow({mode: 'open'});
+        this.render();
     }
 
     static get componentName(): string {
